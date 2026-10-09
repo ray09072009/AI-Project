@@ -10,11 +10,14 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "afirmacao"
+                afirmacao: "A tecnologia é impressionante, mas também preocupa pelos riscos que pode trazer.”"
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "afirmacao"
+                afirmacao: " A tecnologia facilita o acesso à informação e abre novas possibilidades para aprender, criar e se comunicar."
+
+
+"
             }           
             
         ]
@@ -24,11 +27,11 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao:"afirmacao"
+                afirmacao:"Utilizar a IA para encontrar informações relevantes e entender melhor o tema, usando-a como apoio para elaborar o trabalho.”"
             },
             {
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao:"afirmacao"
+                afirmacao:"Produzir o trabalho com base nos próprios conhecimentos, nas conversas com colegas e nas pesquisas realizadas na internet.”"
             }
         ]
     },
@@ -37,12 +40,13 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao:"afirmacao"
+                afirmacao:"Acredito que a IA pode substituir alguns empregos, por isso é importante proteger os trabalhadores e prepará-los para as mudanças."
             },
             {
                 texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao:"afirmacao"
-            }
+                afirmacao:"Acredito que a IA pode criar novas oportunidades de emprego e ajudar as pessoas a desenvolver suas habilidades."
+            },
+            
             
         ]
     },
@@ -65,11 +69,16 @@ const perguntas = [
         alternativas: [
             {
                 texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao:"afirmacao"
+                afirmacao:"A inteligência artificial pode ajudar na realização do trabalho, mas é necessário conferir as informações, corrigir possíveis erros e acrescentar as ideias e opiniões dos integrantes do grupo."
             },
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao:"afirmacao"
+                afirmacao:"Copiar todo o texto gerado sem revisar ou acrescentar ideias próprias não é adequado. É importante verificar as informações e contribuir com o próprio conhecimento.
+
+
+"
+
+"
             }
             
             
@@ -115,3 +124,4 @@ function mostraResultado(){
 }
 
 mostraPergunta();
+                   
